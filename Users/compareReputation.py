@@ -29,10 +29,14 @@ try:
         over1000_rustack_count = 0
         over1000_stack_count = 0
         over1000_equal_count = 0
+        over20_rustack_count = 0
+        over20_stack_count = 0
+        over20_equal_count = 0
         inactive_rustack_count = 0
         inactive_stack_count = 0
         inactive_equal_count = 0
 
+        #as the total number is 31440 and each user has a pair of account
         while rustack_num < 62878:
             rustack_num += 2
             stack_num += 2
@@ -52,20 +56,24 @@ try:
                 #print("ru reputation is greater than stack's")
                 if result1 > 1000:
                     over1000_rustack_count += 1
-                elif result1 > 500 and result1 <=1000:
+                elif result1 > 500 :
                     over500_rustack_count += 1
-                elif result1 > 100 and result1 <= 500:
+                elif result1 > 100 :
                     over100_rustack_count += 1
+                elif result1 > 20:
+                    over20_rustack_count += 1
                 else:
                     inactive_rustack_count += 1
             elif result1 == result2:
                 #print("ru reputation equals with stack's")
                 if result1 > 1000 :
                     over1000_equal_count += 1
-                elif result1 > 500 and result1 <=1000:
+                elif result1 > 500:
                     over500_equal_count += 1
-                elif result1 > 100 and result1 <= 500:
+                elif result1 > 100 :
                     over100_equal_count += 1
+                elif result1 >20:
+                    over20_equal_count += 1
                 else:
                     inactive_equal_count += 1
             else:
@@ -76,12 +84,28 @@ try:
                     over500_stack_count += 1
                 elif result2 > 100 and result1 <= 500:
                     over100_stack_count += 1
+                elif result2 > 20:
+                    over20_stack_count += 1
                 else:
                     inactive_stack_count += 1
 
-        print("rustack_count ", inactive_rustack_count,over100_rustack_count,over500_rustack_count,over1000_rustack_count)
-        print ("equal_count", inactive_equal_count, over100_equal_count,over500_equal_count,over1000_equal_count)
-        print("stack_count ", inactive_stack_count,over100_stack_count,over500_stack_count,over1000_stack_count)
+        print("rustack_count ", inactive_rustack_count,over20_rustack_count,over100_rustack_count,over500_rustack_count,over1000_rustack_count)
+        print ("equal_count", inactive_equal_count,over20_equal_count ,over100_equal_count,over500_equal_count,over1000_equal_count)
+        print("stack_count ", inactive_stack_count,over20_stack_count,over100_stack_count,over500_stack_count,over1000_stack_count)
+
+        final_result1 = [ inactive_rustack_count,over20_rustack_count,over100_rustack_count,over500_rustack_count,over1000_rustack_count]
+        final_result2 = [ inactive_stack_count,over20_stack_count,over100_stack_count,over500_stack_count,over1000_stack_count ]
+        final_result3 = [ inactive_equal_count,over20_equal_count ,over100_equal_count,over500_equal_count,over1000_equal_count ]
+
+        file = open('result_Reputation.txt','a')
+        file.write('\nRustack: x<20 ; 20<x<100 ; 100<x<500; 500<x<1000; x>1000\n')
+        file.write( ','.join(str(num) for num in final_result1))
+        file.write('\nStack: x<20 ; 20<x<100 ; 100<x<500; 500<x<1000; x>1000\n')
+        file.write( ','.join(str(num) for num in final_result2))
+        file.write('\nEqual: x<20 ; 20<x<100 ; 100<x<500; 500<x<1000; x>1000\n')
+        file.write( ','.join(str(num) for num in final_result3))
+
+        file.close()
 
     connection.commit()
 

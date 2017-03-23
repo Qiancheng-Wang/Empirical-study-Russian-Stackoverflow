@@ -1,3 +1,8 @@
+# mysqldb doesn't support python3.X, so I use the PyMySQL.
+# user the datetime library can easily compare strings of date.
+
+
+
 import pymysql.cursors
 import datetime
 import time

@@ -1,0 +1,8 @@
+This is 2017 {'January': 1091, 'February': 1235, 'March': 477}
+This is 2016 {'January': 1126, 'February': 1104, 'March': 1169, 'April': 1308, 'May': 1000, 'June': 1040, 'July': 995, 'August': 1108, 'September': 1243, 'October': 2695, 'November': 1452, 'December': 1193}
+This is 2015 {'January': 127, 'February': 122, 'March': 251, 'April': 2749, 'May': 1119, 'June': 1109, 'July': 986, 'August': 874, 'September': 1268, 'October': 1044, 'November': 1048, 'December': 959}
+This is 2014 {'January': 162, 'February': 157, 'March': 151, 'April': 136, 'May': 141, 'June': 135, 'July': 145, 'August': 114, 'September': 134, 'October': 146, 'November': 128, 'December': 136}
+This is 2013 {'January': 98, 'February': 104, 'March': 120, 'April': 116, 'May': 138, 'June': 141, 'July': 139, 'August': 159, 'September': 168, 'October': 175, 'November': 193, 'December': 134}
+This is 2012 {'January': 111, 'February': 105, 'March': 101, 'April': 95, 'May': 83, 'June': 65, 'July': 149, 'August': 121, 'September': 88, 'October': 171, 'November': 142, 'December': 105}
+This is 2011 {'January': 64, 'February': 80, 'March': 126, 'April': 92, 'May': 79, 'June': 47, 'July': 92, 'August': 99, 'September': 126, 'October': 118, 'November': 106, 'December': 86}
+This is 2010 {'January': 0, 'February': 0, 'March': 0, 'April': 0, 'May': 0, 'June': 0, 'July': 1, 'August': 0, 'September': 1, 'October': 2, 'November': 2, 'December': 32}

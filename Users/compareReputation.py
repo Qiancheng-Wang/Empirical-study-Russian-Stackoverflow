@@ -37,7 +37,7 @@ try:
         inactive_equal_count = 0
 
         #as the total number is 31440 and each user has a pair of account
-        while rustack_num < 62878:
+        while rustack_num < 71500:
             rustack_num += 2
             stack_num += 2
             print(rustack_num)

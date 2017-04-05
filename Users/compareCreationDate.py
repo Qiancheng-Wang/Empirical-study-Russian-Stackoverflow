@@ -28,7 +28,7 @@ try:
         rustack_count = 0
         stack_count = 0
 
-        while rustack_num < 62878 :
+        while rustack_num < 71500 :
 
             rustack_num += 2
             stack_num += 2

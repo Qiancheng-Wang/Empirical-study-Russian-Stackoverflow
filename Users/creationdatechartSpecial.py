@@ -134,11 +134,14 @@ try:
             if flag > 71502:
                 break
 
-            sql = 'select CreationDate from FinalCompare where rownum = %s ;' % flag
-            cursor.execute(sql)
+            sql1 = 'select CreationDate,AccountID from FinalCompare where rownum = %s ;' % flag
+            cursor.execute(sql1)
             result = cursor.fetchone()
             creationdate = str(result['CreationDate'])[0:10] + ' ' + str(result['CreationDate'])[11:19]
             creationdate = datetime.datetime.strptime(creationdate, '%Y-%m-%d %H:%M:%S')
+            accountId = result['accountId']
+
+            sql2 = 'select rownum from FinalCompare where rownum = %s ;'
 
             if creationdate > date17_3:
                 month2017_count['March'] += 1

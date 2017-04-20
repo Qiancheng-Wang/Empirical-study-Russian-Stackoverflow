@@ -1,0 +1,33 @@
+
+ russian_post_active is  4601
+ russian_post_inactive is  1888
+ russian_answer_active is  4831
+ russian_answer_inactive is  1658
+ russian_question_active is  5168
+ russian_question_inactive is  1321
+
+ stack_post_active is  2852
+ stack_post_inactive is  3637
+ stack_answer_active is  3351
+ stack_answer_inactive is  3138
+ stack_question_active is  4100
+ stack_question_inactive is  2389
+
+ total_post_active is  4888
+ total_post_inactive is  1601
+ total_answer_active is  5046
+ total_answer_inactive is  1443
+ total_question_active is  5288
+ total_question_inactive is  1201
+
+964 users are active on both russianstackoverflow and stackoverflow afger thier creation of 
+new russian stackoverflow account 
+which is 14.86%
+
+2852 users are still active on stackoverflow main site
+which is 43.95%
+
+4601 users are active on russian stackoverflow
+which is 70.9%
+and 3637 of them are only active on russian stackoverflow 
+which is 56.04% of migration users.

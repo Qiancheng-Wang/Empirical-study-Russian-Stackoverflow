@@ -4,7 +4,7 @@
 
 \usepackage{float}
 \usepackage{graphicx}
-
+\usepackage{subfigure}
 \usepackage[sc]{mathpazo} % Use the Palatino font
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \linespread{1.05} % Line spacing - Palatino needs more space between lines
@@ -141,41 +141,48 @@ Reputation is a very valuable information that can be used to reveal the active 
   	\end{figure}
 And the remaining data shows there are more users' stackoverflow account owns a higher reputation than their Russian ones. Only 8,360 users in the 31,440 overlapping set have a over 100 reputation in either of their accounts, and in those 24,498 users who migrated from Stackoverflow to Russian Stackoverflow 6,489 users have a over 100 reputation, which means they are active users. 
 %==============
-\subsection{Core Users}
-Generally, for each single community, core user groups are the foudation because of their contribution like a large number of posts and comments. Similarly, in figure 7, for the 65623 overlapping users, using the Stackoverflow principles can
-[need to be figured out by literacy searching] 
-get a group of core user, which has 8360 people whose reputation of either of the account is greater than 100. On the other hind we need to use their creation date again to defenite their direction of migration between these two sites, which is showed in figure 8.\begin{figure}[H]
+
+\section{Post}
+
+Generally, for each single community, core user groups are the foudation because of their contribution like a large number of posts and comments. Similarly, in figure 7, for the 65623 overlapping users, we can simply get a group of core user by calculating their posts. For the Russian users, simply calculating their post count and the results are presented in figure 8. This result is very consistent with the twenty-eight law, that is, about twenty percent of the user made a contribution of about eighty percent
+	\begin{figure}[H]
+		\includegraphics[width = 0.42\textwidth]{coreuser.png}
+		\caption{russian users posts count result}
+  	\end{figure}
+So we can see that 4818 users who contributed more than 10(can equal) posts own 237,557 posts, which is almost 76.8\% of the total amount of Russian posts. So it is better to make an assumption that these kind of users are the core users for the Russian sub site. On the other hind,s we need to use their creation date again to defenite their direction of migration between these two sites, which is showed in figure 9.
+ \begin{figure}[H]
 		\includegraphics[width = 0.42\textwidth]{coreuser1.png}
 		\caption{Core users that owns both Stackoverflow account and Russian Stackoverflow account at the same time}
 		\includegraphics[width = 0.42\textwidth]{coreuser2.png}
 		\caption{The compare of migration drection }
   	\end{figure}
-As the results above, Only 1871 out of 11253 users who migrated to Stackoverflow, which is 16.6267\% are proved still be core users in Russian stackoverflow site, while 6489 out of 24498 users who migrated from Stackoverflow, which is 26.4879\% are proved to be core users.
-\section{Post}
-There are 34,857,917 posts in Stackoverflow and 310,539 posts in Russian Stackoverflow. While only 573,927 posts in Stackoverflow and 177,270 posts in Russian Stackoverflow are contributed by the core user group that owns 8360 people. In other words, the 12.74\% core users contribute 57.08\% of the total posts in Russian Stackoverflow. These core users' contribution of posts are showed in the chart below
-\begin{table*}[!htbp]
-\begin{tabular}{|c|c|c|}
-\hline
-user origin & posts/posts of core users & posts/posts of all users in Russain Stackoverflow\\
-\hline
-From Stackoverflow to Russian Stackoverflow& 44.21\%& 25.24\%\\
-From Russian Stackoverflow to Stackoverflow& 55.79\%& 31.85\%\\
-\hline
-\end{tabular}
-\end{table*}
-\\Also these core users answer posts and question posts are counted in the chart below
-\begin{table}[!htbp]
-\begin{tabular}{|c|c|c|}
-\hline
-user origin & Answer Number & Question Number\\
-\hline
-From Stackoverflow to Russian Stackoverflow&464,185&109742\\
-From Russian Stackoverflow to Stackoverflow&124,958&52,314\\
-\hline
-\end{tabular}
-\end{table}
-\\For the 6,489 core users who already have Stackoverflow account before thier creation of Russian Stackoverflow account, the compare between the post activities before their migration with the post activities after their migration can definitly reveal their emphasized aspect.
-The idea is that the object of reference of the users it themselve. Calculate the average post/quesiton/answer numbers during their time when they only use stackoverflow account and after their creation of Russian Stackoverflow account, then compare these two numbers to decide whether a single user is still active or already swithed their avtivity site.
-the results are represented in the figure 11.
+As the results above, 1845 out of 11253 overlap users who migrated to Stackoverflow, which is 16.40\% are proved still be core users in Russian stackoverflow site, while 1402 out of overlap 24498 users who migrated from Stackoverflow, which is 5.72\% are proved to be core users.
+There are and 310,539 posts in Russian Stackoverflow, and 237,557 posts in Russian Stackoverflow are contributed by the core user group that owns 4818 people. In other words, the 7.34\% core users contribute 76.50\% of the total posts in Russian Stackoverflow.
+
+For the 1402 core users who already have Stackoverflow account before thier creation of Russian Stackoverflow account, the compare between the post activities before their migration with the post activities after their migration can definitly reveal their emphasized aspect.	The idea is that the object of reference of the users it themselve. To compare the post frequency before and after they create a new subsite account, which called user migration.
+	\begin{displaymath}
+	f(x)=\frac{PostCountBeforeMigration /TimeLengthBeforeMigration}{PostCountAfterMigration/TimeLengthAfterMigration}	 			\end{displaymath}
+
+\subsection{PostCount}
+So there are three level of activity, the first one is active, which means the count of users' post is abov 1.1 mutiple of their previous one. The second one is fair, which is between 0.9 and 1.1. The third one is inactive, which is under 0.9. The result is in figure 10.
+	\begin{figure} [H]
+	\centering 
+	\subfigure[Russian Post Activity.] { \label{fig:a} 
+	\includegraphics[width=0.7\columnwidth]{test1.png} 
+	} 
+	\subfigure[StackOverflow Post Activity.] { \label{fig:b} 
+	\includegraphics[width=0.7\columnwidth]{test2.png} 
+	}
+	\subfigure[Total Post Activity.] { \label{fig:b} 
+	\includegraphics[width=0.7\columnwidth]{test3.png} 
+	}  
+	\caption{ User Post Activity Result. } 
+	\label{fig} 
+	\end{figure}
+And the in these 1402 users who own both Stackoverflow account and Russian Stackoverflow account and migrated from Stackoverflow site to Russian sub site. 861 of them are both on both sites after their migration, and 3 of them are fair, while 200 of them are inactive. The result is in figure 11
+	\begin{figure}[H]
+		\includegraphics[width = 0.42\textwidth]{useractivity_post2.png}
+		\caption{Overall result}
+  	\end{figure}
 
 \end{document}

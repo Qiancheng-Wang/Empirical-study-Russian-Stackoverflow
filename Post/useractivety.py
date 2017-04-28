@@ -24,7 +24,7 @@ try :
 
 
 
-        sql1 = 'select accountId from stacktorussiancoreuser ;'
+        sql1 = 'select accountId from postanalysis2 ;'
         cursor.execute(sql1)
         result1 = cursor.fetchall()
 
@@ -32,25 +32,21 @@ try :
 
 
         russian_post_active = 0
+        russian_post_equal = 0
         russian_post_inactive = 0
-        russian_answer_active = 0
-        russian_answer_inactive = 0
-        russian_question_active = 0
-        russian_question_inactive = 0
 
         stack_post_active = 0
+        stack_post_equal = 0
         stack_post_inactive = 0
-        stack_answer_active = 0
-        stack_answer_inactive = 0
-        stack_question_active = 0
-        stack_question_inactive = 0
+
+        both_active = 0
+        both_equal = 0
+        bothe_inactive = 0
 
         total_post_active = 0
+        total_post_equal = 0
         total_post_inactive = 0
-        total_answer_active = 0
-        total_answer_inactive = 0
-        total_question_active = 0
-        total_question_inactive = 0
+
         flag1 = 0
         while flag1 < len(result1):
             print(flag1)
@@ -58,7 +54,7 @@ try :
             thisaccoutidstr = result1[flag1]
             thisaccoutid = thisaccoutidstr['accountId']
 
-            sql2 = 'select afterMigrationRussianAnswer, afterMigrationRussianquestion,beforeMigrationStackAnswer,beforeMigrationStackQuestion,afterMigrationStackAnswer,afterMigrationStackQuestion,stackcreationdate,russiancreationdate from postanalysis2 where accountId = %s;' % thisaccoutid
+            sql2 = 'select afterMigrationRussianPost,beforeMigrationStackPost,afterMigrationStackpost,stackcreationdate,russiancreationdate from postanalysis2 where accountId = %s;' % thisaccoutid
             cursor.execute(sql2)
             result2 = cursor.fetchall()
             result2 = result2[0]
@@ -71,104 +67,81 @@ try :
             gaptime = userrussiancreationdate - userstackcreationdate
             usingrussiantime = dateDataUpdate - userrussiancreationdate
             proportion = usingrussiantime / gaptime
-            print(proportion)
 
-            afterCreatedRussianAccount_Answer = float(result2['afterMigrationStackAnswer'])
-            beforeCreatedRussianAccount_Answer = float(result2['beforeMigrationStackAnswer'])
-            afterCreatedRussianAccount_Question = float(result2['afterMigrationStackQuestion'])
-            beforeCreatedRussianAccount_Question = float(result2['beforeMigrationStackQuestion'])
-            afterCreatedRussianAccount_Russian_Answer = float(result2['afterMigrationRussianAnswer'])
-            afterCreatedRussianAccount_Russian_Question = float(result2['afterMigrationRussianquestion'])
 
-            '''print(afterCreatedRussianAccount_Answer, beforeCreatedRussianAccount_Answer ,
-                  afterCreatedRussianAccount_Question ,beforeCreatedRussianAccount_Question ,
-                  afterCreatedRussianAccount_Russian_Answer , afterCreatedRussianAccount_Russian_Question)
-            '''
-            comparenumber_answer = beforeCreatedRussianAccount_Answer*proportion
-            comparenumber_question = beforeCreatedRussianAccount_Question*proportion
-            comparenumber_post = (beforeCreatedRussianAccount_Answer + beforeCreatedRussianAccount_Question)*proportion
-            print("comparenumber_answer,comparenumber_question,comparenumber_post",comparenumber_answer,comparenumber_question,comparenumber_post)
+            afterMigrationRussianPost = float(result2['afterMigrationRussianPost'])
+            beforeMigrationStackPost = float(result2['beforeMigrationStackPost'])
+            afterMigrationStackpost = float(result2['afterMigrationStackpost'])
 
-            if comparenumber_answer > afterCreatedRussianAccount_Russian_Answer:
-                #print(afterCreatedRussianAccount_Russian_Answer)
-                russian_answer_inactive += 1
-            else:
-                #print(afterCreatedRussianAccount_Russian_Answer)
-                russian_answer_active += 1
+            comparenumber_post = beforeMigrationStackPost*proportion
 
-            if comparenumber_question > afterCreatedRussianAccount_Russian_Question:
-                #print(afterCreatedRussianAccount_Russian_Question)
-                russian_question_inactive += 1
-            else:
-                #print(afterCreatedRussianAccount_Russian_Question)
-                russian_question_active += 1
+            print(proportion, comparenumber_post,"\n",
+            afterMigrationRussianPost,afterMigrationStackpost,afterMigrationRussianPost + afterMigrationStackpost)
 
-            if comparenumber_post > (afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question):
-                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
-                russian_post_inactive += 1
-            else:
+            if afterMigrationRussianPost >=  1.1* comparenumber_post :
                 #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
                 russian_post_active += 1
+
+            elif afterMigrationRussianPost >= 0.9 * comparenumber_post:
+                russian_post_equal += 1
+            else:
+                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
+                russian_post_inactive += 1
             ####################################
             ####################################
             ####################################
 
-            if comparenumber_answer > afterCreatedRussianAccount_Answer :
-                stack_answer_inactive += 1
-            else:
-                stack_answer_active += 1
-
-            if comparenumber_question >  afterCreatedRussianAccount_Question:
-                stack_question_inactive += 1
-            else:
-                stack_question_active += 1
-
-            if comparenumber_post >(afterCreatedRussianAccount_Answer + afterCreatedRussianAccount_Question):
-                stack_post_inactive += 1
-            else:
+            if afterMigrationStackpost >=  1.1* comparenumber_post :
+                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
                 stack_post_active += 1
 
+            elif afterMigrationStackpost >= 0.9 * comparenumber_post:
+                stack_post_equal += 1
+            else:
+                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
+                stack_post_inactive += 1
+
             ####################################
             ####################################
             ####################################
 
-            if comparenumber_answer > (afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Answer):
-                total_answer_inactive += 1
-            else:
-                total_answer_active += 1
 
-            if comparenumber_question > (afterCreatedRussianAccount_Russian_Question + afterCreatedRussianAccount_Question):
-                total_question_inactive += 1
-            else:
-                total_question_active += 1
-
-            if comparenumber_post > (afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question + afterCreatedRussianAccount_Answer + afterCreatedRussianAccount_Question):
-                total_post_inactive += 1
-            else:
+            if (afterMigrationRussianPost + afterMigrationStackpost ) >=  1.1* comparenumber_post :
+                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
                 total_post_active += 1
+                if afterMigrationStackpost >= 1.1 * comparenumber_post:
+                    # print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
+                    both_active += 1
+            elif (afterMigrationRussianPost + afterMigrationStackpost ) >= 0.9 * comparenumber_post:
+                total_post_equal += 1
+                if afterMigrationStackpost >= 0.9 * comparenumber_post:
+                    both_equal += 1
+            else:
+                #print(afterCreatedRussianAccount_Russian_Answer + afterCreatedRussianAccount_Russian_Question)
+                total_post_inactive += 1
+                if afterMigrationStackpost < 0.9 * comparenumber_post:
+                    bothe_inactive += 1
 
             flag1 += 1
 
             connection.commit()
 
         print(" russian_post_active is ",russian_post_active ,"\n",
-              "russian_post_inactive is ",russian_post_inactive ,"\n",
-              "russian_answer_active is ",russian_answer_active ,"\n",
-              "russian_answer_inactive is ",russian_answer_inactive ,"\n",
-              "russian_question_active is ",russian_question_active ,"\n",
-              "russian_question_inactive is ",russian_question_inactive ,"\n")
+              "russian_post_equal is", russian_post_equal,"\n"
+              "russian_post_inactive is ",russian_post_inactive ,"\n")
+
         print(" stack_post_active is ", stack_post_active, "\n",
-              "stack_post_inactive is ", stack_post_inactive, "\n",
-              "stack_answer_active is ", stack_answer_active, "\n",
-              "stack_answer_inactive is ", stack_answer_inactive, "\n",
-              "stack_question_active is ", stack_question_active, "\n",
-              "stack_question_inactive is ", stack_question_inactive, "\n")
+              "stack_post_equal is", stack_post_equal, "\n"
+                "stack_post_inactive is ", stack_post_inactive, "\n")
+
         print(" total_post_active is ", total_post_active, "\n",
-              "total_post_inactive is ", total_post_inactive, "\n",
-              "total_answer_active is ", total_answer_active, "\n",
-              "total_answer_inactive is ", total_answer_inactive, "\n",
-              "total_question_active is ", total_question_active, "\n",
-              "total_question_inactive is ", total_question_inactive, "\n")
+              "total_post_equal is", total_post_equal,"\n"
+              "total_post_inactive is ", total_post_inactive, "\n")
+
+        print(" both_active is ", both_active, "\n",
+              "both_equal is", both_equal, "\n"
+                "both_inactive is ", bothe_inactive, "\n")
+
 
 finally:
     connection.close()

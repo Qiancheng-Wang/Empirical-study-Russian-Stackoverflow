@@ -8,9 +8,9 @@ stack_post_equal is 37
 stack_post_inactive is  504
 
 total_post_active is  1178
-total_post_equal is 37
+total_post_equal is 24
 total_post_inactive is  200
 
-both_active is 861
-both_equal is 3
-both_inactive is 200
+both_active is 821
+both_equal is 0
+both_inactive is 581

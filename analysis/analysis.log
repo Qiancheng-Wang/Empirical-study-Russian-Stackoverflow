@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  28 APR 2017 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  28 APR 2017 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,18 +731,18 @@ File: example4.png Graphic file (type png)
 <use example4.png>
 Package pdftex.def Info: example4.png used on input line 203.
 (pdftex.def)             Requested size: 181.62706pt x 123.95764pt.
- <example5.png, id=93, 808.01875pt x 559.08875pt>
-File: example5.png Graphic file (type png)
-
-<use example5.png>
-Package pdftex.def Info: example5.png used on input line 211.
-(pdftex.def)             Requested size: 181.62706pt x 125.6701pt.
- <example6.png, id=94, 811.03pt x 542.025pt>
+ <example6.png, id=93, 811.03pt x 542.025pt>
 File: example6.png Graphic file (type png)
 
 <use example6.png>
-Package pdftex.def Info: example6.png used on input line 214.
+Package pdftex.def Info: example6.png used on input line 211.
 (pdftex.def)             Requested size: 181.62706pt x 121.37968pt.
+ <example5.png, id=94, 808.01875pt x 559.08875pt>
+File: example5.png Graphic file (type png)
+
+<use example5.png>
+Package pdftex.def Info: example5.png used on input line 214.
+(pdftex.def)             Requested size: 181.62706pt x 125.6701pt.
  <example7.png, id=95, 827.09pt x 557.08125pt>
 File: example7.png Graphic file (type png)
 
@@ -763,7 +763,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
  [5 <./example1.png> <./example2.png> <./example3.png> <./example4.png> <./exam
-ple5.png> <./example6.png> <./example7.png> <./example8.png>]
+ple6.png> <./example5.png> <./example7.png> <./example8.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./analysis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
@@ -782,7 +782,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
 Here is how much of TeX's memory you used:
  10223 strings out of 493014
  157860 string characters out of 6133351
- 286190 words of memory out of 5000000
+ 286197 words of memory out of 5000000
  13369 multiletter control sequences out of 15000+600000
  52103 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -794,7 +794,7 @@ ive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on analysis.pdf (5 pages, 638162 bytes).
+Output written on analysis.pdf (5 pages, 645267 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

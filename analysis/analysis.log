@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  11 MAY 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  8 JUN 2017 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -383,7 +383,179 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 LaTeX Warning: Unused global option(s):
     [A4paper].
 
-(./analysis.aux)
+(./analysis.aux
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:a' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
 \openout1 = `analysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -403,7 +575,8 @@ LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Try loading font information for T1+pplx on input line 73.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
-) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen163
@@ -551,255 +724,354 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 90.
 
-<link3.png, id=37, 723.70375pt x 220.825pt>
+<link3.png, id=49, 723.70375pt x 220.825pt>
 File: link3.png Graphic file (type png)
  <use link3.png>
-Package pdftex.def Info: link3.png used on input line 103.
+Package pdftex.def Info: link3.png used on input line 104.
 (pdftex.def)             Requested size: 211.57147pt x 64.5565pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 104.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 105.
 
-<link1.png, id=39, 528.97626pt x 385.44pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<link1.png, id=51, 528.97626pt x 385.44pt>
 File: link1.png Graphic file (type png)
  <use link1.png>
-Package pdftex.def Info: link1.png used on input line 108.
+Package pdftex.def Info: link1.png used on input line 109.
 (pdftex.def)             Requested size: 211.57147pt x 154.1615pt.
 
-<link2.png, id=40, 399.4925pt x 313.17pt>
+<link2.png, id=52, 399.4925pt x 313.17pt>
 File: link2.png Graphic file (type png)
  <use link2.png>
-Package pdftex.def Info: link2.png used on input line 110.
+Package pdftex.def Info: link2.png used on input line 111.
 (pdftex.def)             Requested size: 211.57147pt x 165.85506pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./link3.png> <./link1.png> <./link2.png>]
-Underfull \hbox (badness 2556) in paragraph at lines 116--119
+ <./link3.png>]
+Underfull \hbox (badness 2556) in paragraph at lines 117--120
 \T1/pplx/m/n/10 (+20) Stackoverflow main site has 6,833,276 users, while
  []
 
-<user2.png, id=56, 471.7625pt x 302.12875pt>
+<user2.png, id=65, 471.7625pt x 302.12875pt>
 File: user2.png Graphic file (type png)
  <use user2.png>
-Package pdftex.def Info: user2.png used on input line 123.
+Package pdftex.def Info: user2.png used on input line 124.
 (pdftex.def)             Requested size: 211.57147pt x 135.49567pt.
 
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
-
-<user1.png, id=57, 851.18pt x 485.815pt>
+<user1.png, id=66, 851.18pt x 485.815pt>
 File: user1.png Graphic file (type png)
  <use user1.png>
-Package pdftex.def Info: user1.png used on input line 128.
+Package pdftex.def Info: user1.png used on input line 129.
 (pdftex.def)             Requested size: 211.57147pt x 120.74922pt.
 
-<user3.png, id=58, 554.07pt x 388.45125pt>
+Underfull \vbox (badness 5862) has occurred while \output is active []
+
+ [2 <./link1.png> <./link2.png> <./user2.png>] <user3.png, id=76, 554.07pt x 38
+8.45125pt>
 File: user3.png Graphic file (type png)
- <use user3.png>
-Package pdftex.def Info: user3.png used on input line 139.
+
+<use user3.png>
+Package pdftex.def Info: user3.png used on input line 140.
 (pdftex.def)             Requested size: 211.57147pt x 148.3302pt.
- [2 <./user2.png> <./user1.png>] <coreuser.png, id=67, 768.8725pt x 429.605pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<coreuser.png, id=77, 768.8725pt x 429.605pt>
 File: coreuser.png Graphic file (type png)
  <use coreuser.png>
-Package pdftex.def Info: coreuser.png used on input line 149.
+Package pdftex.def Info: coreuser.png used on input line 150.
 (pdftex.def)             Requested size: 222.15247pt x 124.12338pt.
 
-<coreuser1.png, id=68, 363.3575pt x 219.82124pt>
+<coreuser1.png, id=78, 363.3575pt x 219.82124pt>
 File: coreuser1.png Graphic file (type png)
  <use coreuser1.png>
-Package pdftex.def Info: coreuser1.png used on input line 154.
+Package pdftex.def Info: coreuser1.png used on input line 155.
 (pdftex.def)             Requested size: 222.15247pt x 134.39934pt.
 
-<coreuser2.png, id=69, 356.33125pt x 214.8025pt>
+<coreuser2.png, id=79, 356.33125pt x 214.8025pt>
 File: coreuser2.png Graphic file (type png)
  <use coreuser2.png>
-Package pdftex.def Info: coreuser2.png used on input line 156.
+Package pdftex.def Info: coreuser2.png used on input line 157.
 (pdftex.def)             Requested size: 222.15247pt x 133.9169pt.
- [3 <./user3.png> <./coreuser.png> <./coreuser1.png> <./coreuser2.png>]
-Overfull \hbox (29.05432pt too wide) detected at line 164
+ [3 <./user1.png> <./user3.png> <./coreuser.png>]
+Overfull \hbox (29.05432pt too wide) detected at line 165
 \OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = []
 
  []
 
-<ratiochart1.png, id=81, 679.53876pt x 382.42876pt>
+<ratiochart1.png, id=90, 679.53876pt x 382.42876pt>
 File: ratiochart1.png Graphic file (type png)
  <use ratiochart1.png>
-Package pdftex.def Info: ratiochart1.png used on input line 170.
+Package pdftex.def Info: ratiochart1.png used on input line 171.
 (pdftex.def)             Requested size: 256.8751pt x 144.56pt.
 
-<ratiochart2.png, id=82, 633.36626pt x 428.60126pt>
+<ratiochart2.png, id=91, 633.36626pt x 428.60126pt>
 File: ratiochart2.png Graphic file (type png)
  <use ratiochart2.png>
-Package pdftex.def Info: ratiochart2.png used on input line 173.
+Package pdftex.def Info: ratiochart2.png used on input line 174.
 (pdftex.def)             Requested size: 256.8751pt x 173.83107pt.
 
-Overfull \hbox (6.13675pt too wide) in paragraph at lines 170--174
+Overfull \hbox (6.13675pt too wide) in paragraph at lines 171--175
  [][] 
  []
 
 
-Overfull \hbox (3.22675pt too wide) in paragraph at lines 170--174
+Overfull \hbox (3.22675pt too wide) in paragraph at lines 171--175
  [][] 
  []
 
-<test1.png, id=83, 319.1925pt x 202.7575pt>
+<test1.png, id=92, 319.1925pt x 202.7575pt>
 File: test1.png Graphic file (type png)
  <use test1.png>
-Package pdftex.def Info: test1.png used on input line 185.
+Package pdftex.def Info: test1.png used on input line 186.
 (pdftex.def)             Requested size: 181.62706pt x 115.37187pt.
 
-<test2.png, id=84, 302.12875pt x 203.76125pt>
+<test2.png, id=93, 302.12875pt x 203.76125pt>
 File: test2.png Graphic file (type png)
  <use test2.png>
-Package pdftex.def Info: test2.png used on input line 188.
+Package pdftex.def Info: test2.png used on input line 189.
 (pdftex.def)             Requested size: 181.62706pt x 122.49086pt.
 
-<test3.png, id=85, 307.1475pt x 206.7725pt>
+<test3.png, id=94, 307.1475pt x 206.7725pt>
 File: test3.png Graphic file (type png)
  <use test3.png>
-Package pdftex.def Info: test3.png used on input line 191.
+Package pdftex.def Info: test3.png used on input line 192.
 (pdftex.def)             Requested size: 181.62706pt x 122.27235pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-<useractivity_post2.png, id=86, 326.21875pt x 216.81pt>
+ [4 <./coreuser1.png> <./coreuser2.png> <./ratiochart1.png> <./ratiochart2.png>
+]
+<useractivity_post2.png, id=108, 326.21875pt x 216.81pt>
 File: useractivity_post2.png Graphic file (type png)
 
 <use useractivity_post2.png>
-Package pdftex.def Info: useractivity_post2.png used on input line 197.
+Package pdftex.def Info: useractivity_post2.png used on input line 198.
 (pdftex.def)             Requested size: 222.15247pt x 147.6505pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./ratiochart1.png> <./ratiochart2.png> <./test1.png> <./test2.png> <./test
-3.png>]
-<example1.png, id=105, 806.01125pt x 538.01pt>
+
+<example1.png, id=109, 727.518pt x 464.33475pt>
 File: example1.png Graphic file (type png)
  <use example1.png>
-Package pdftex.def Info: example1.png used on input line 207.
-(pdftex.def)             Requested size: 181.62706pt x 121.23584pt.
+Package pdftex.def Info: example1.png used on input line 208.
+(pdftex.def)             Requested size: 181.62706pt x 115.92044pt.
 
-<example2.png, id=106, 823.075pt x 548.0475pt>
+<example2.png, id=110, 719.0865pt x 472.76625pt>
 File: example2.png Graphic file (type png)
  <use example2.png>
-Package pdftex.def Info: example2.png used on input line 210.
-(pdftex.def)             Requested size: 181.62706pt x 120.9304pt.
+Package pdftex.def Info: example2.png used on input line 211.
+(pdftex.def)             Requested size: 181.62706pt x 119.4104pt.
 
-<example3.png, id=107, 804.00375pt x 553.06625pt>
+<example3.png, id=111, 711.8595pt x 475.7775pt>
 File: example3.png Graphic file (type png)
  <use example3.png>
-Package pdftex.def Info: example3.png used on input line 213.
-(pdftex.def)             Requested size: 181.62706pt x 124.93243pt.
+Package pdftex.def Info: example3.png used on input line 214.
+(pdftex.def)             Requested size: 181.62706pt x 121.39061pt.
 
-<example4.png, id=108, 803.0pt x 548.0475pt>
+<example4.png, id=112, 707.64375pt x 472.76625pt>
 File: example4.png Graphic file (type png)
  <use example4.png>
-Package pdftex.def Info: example4.png used on input line 216.
-(pdftex.def)             Requested size: 181.62706pt x 123.95764pt.
+Package pdftex.def Info: example4.png used on input line 217.
+(pdftex.def)             Requested size: 181.62706pt x 121.33649pt.
 
-<example6.png, id=109, 811.03pt x 542.025pt>
-File: example6.png Graphic file (type png)
- <use example6.png>
-Package pdftex.def Info: example6.png used on input line 224.
-(pdftex.def)             Requested size: 181.62706pt x 121.37968pt.
-
-<example5.png, id=110, 808.01875pt x 559.08875pt>
+<example5.png, id=113, 704.03024pt x 471.56175pt>
 File: example5.png Graphic file (type png)
  <use example5.png>
-Package pdftex.def Info: example5.png used on input line 227.
-(pdftex.def)             Requested size: 181.62706pt x 125.6701pt.
+Package pdftex.def Info: example5.png used on input line 225.
+(pdftex.def)             Requested size: 181.62706pt x 121.65335pt.
 
-<example7.png, id=111, 827.09pt x 557.08125pt>
+<example6.png, id=114, 695.59875pt x 456.5055pt>
+File: example6.png Graphic file (type png)
+ <use example6.png>
+Package pdftex.def Info: example6.png used on input line 228.
+(pdftex.def)             Requested size: 181.62706pt x 119.19711pt.
+
+<example7.png, id=115, 688.37175pt x 461.92575pt>
 File: example7.png Graphic file (type png)
  <use example7.png>
-Package pdftex.def Info: example7.png used on input line 230.
-(pdftex.def)             Requested size: 181.62706pt x 122.32874pt.
+Package pdftex.def Info: example7.png used on input line 231.
+(pdftex.def)             Requested size: 181.62706pt x 121.8811pt.
 
-<example8.png, id=112, 808.01875pt x 554.07pt>
+<example8.png, id=116, 702.82574pt x 457.71pt>
 File: example8.png Graphic file (type png)
  <use example8.png>
-Package pdftex.def Info: example8.png used on input line 233.
-(pdftex.def)             Requested size: 181.62706pt x 124.542pt.
+Package pdftex.def Info: example8.png used on input line 234.
+(pdftex.def)             Requested size: 181.62706pt x 118.28242pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./test1.png> <./test2.png> <./test3.png> <./useractivity_post2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./useractivity_post2.png> <./example1.png> <./example2.png> <./example3.pn
-g> <./example4.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<comment.png, id=128, 540.0175pt x 370.38374pt>
+ [6 <./example1.png> <./example2.png> <./example3.png> <./example4.png> <./exam
+ple5.png> <./example6.png> <./example7.png> <./example8.png>]
+<comment.png, id=152, 540.0175pt x 370.38374pt>
 File: comment.png Graphic file (type png)
  <use comment.png>
-Package pdftex.def Info: comment.png used on input line 250.
+Package pdftex.def Info: comment.png used on input line 249.
 (pdftex.def)             Requested size: 256.8751pt x 176.18842pt.
 
-<comment1.png, id=129, 602.25pt x 408.52625pt>
+<comment1.png, id=153, 602.25pt x 408.52625pt>
 File: comment1.png Graphic file (type png)
  <use comment1.png>
-Package pdftex.def Info: comment1.png used on input line 253.
+Package pdftex.def Info: comment1.png used on input line 252.
 (pdftex.def)             Requested size: 256.8751pt x 174.25406pt.
 
-Overfull \hbox (3.22675pt too wide) in paragraph at lines 250--254
+Overfull \hbox (3.22675pt too wide) in paragraph at lines 249--253
  [][] 
  []
 
 
-Overfull \hbox (3.22675pt too wide) in paragraph at lines 250--254
+Overfull \hbox (3.22675pt too wide) in paragraph at lines 249--253
  [][] 
  []
 
-<commentcompare1.png, id=130, 360.34625pt x 227.85126pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<commentcompare1.png, id=154, 360.34625pt x 227.85126pt>
 File: commentcompare1.png Graphic file (type png)
 
 <use commentcompare1.png>
-Package pdftex.def Info: commentcompare1.png used on input line 266.
-(pdftex.def)             Requested size: 181.62706pt x 114.8432pt.
- <commentcompare2.png, id=131, 389.455pt x 264.99pt>
+Package pdftex.def Info: commentcompare1.png used on input line 264.
+(pdftex.def)             Requested size: 207.57549pt x 131.24986pt.
+ <commentcompare2.png, id=155, 389.455pt x 264.99pt>
 File: commentcompare2.png Graphic file (type png)
 
 <use commentcompare2.png>
-Package pdftex.def Info: commentcompare2.png used on input line 269.
-(pdftex.def)             Requested size: 181.62706pt x 123.57893pt.
- [6 <./example6.png> <./example5.png> <./example7.png> <./example8.png> <./comm
-ent.png> <./comment1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
- [7
+Package pdftex.def Info: commentcompare2.png used on input line 267.
+(pdftex.def)             Requested size: 207.57549pt x 141.23653pt.
 
- <./commentcompare1.png> <./commentcompare2.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
- (./analysis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./comment.png> <./comment1.png>]
+<commentratio1.png, id=166, 605.26125pt x 422.7795pt>
+File: commentratio1.png Graphic file (type png)
+ <use commentratio1.png>
+Package pdftex.def Info: commentratio1.png used on input line 279.
+(pdftex.def)             Requested size: 207.57549pt x 144.99463pt.
+
+<commentratio2.png, id=167, 613.0905pt x 448.074pt>
+File: commentratio2.png Graphic file (type png)
+ <use commentratio2.png>
+Package pdftex.def Info: commentratio2.png used on input line 282.
+(pdftex.def)             Requested size: 207.57549pt x 151.70729pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package rerunfilecheck Warning: File `analysis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+<commentexample1.png, id=168, 708.84825pt x 458.31226pt>
+File: commentexample1.png Graphic file (type png)
 
-Package rerunfilecheck Info: Checksums for `analysis.out':
-(rerunfilecheck)             Before: C9A7A1A72EB509C77E77C5A07D0116BC;397
-(rerunfilecheck)             After:  4CF55CEE85F77F828BBBD37BECB8B37A;512.
+<use commentexample1.png>
+Package pdftex.def Info: commentexample1.png used on input line 296.
+(pdftex.def)             Requested size: 181.62706pt x 117.43103pt.
+
+<commentexample2.png, id=169, 706.43925pt x 449.88075pt>
+File: commentexample2.png Graphic file (type png)
+
+<use commentexample2.png>
+Package pdftex.def Info: commentexample2.png used on input line 299.
+(pdftex.def)             Requested size: 181.62706pt x 115.66196pt.
+
+<commentexample3.png, id=170, 705.23476pt x 458.9145pt>
+File: commentexample3.png Graphic file (type png)
+
+<use commentexample3.png>
+Package pdftex.def Info: commentexample3.png used on input line 302.
+(pdftex.def)             Requested size: 181.62706pt x 118.18755pt.
+
+<commentexample4.png, id=171, 688.974pt x 461.92575pt>
+File: commentexample4.png Graphic file (type png)
+
+<use commentexample4.png>
+Package pdftex.def Info: commentexample4.png used on input line 305.
+(pdftex.def)             Requested size: 181.62706pt x 121.76833pt.
+
+<commentexample5.png, id=172, 696.80325pt x 454.0965pt>
+File: commentexample5.png Graphic file (type png)
+
+<use commentexample5.png>
+Package pdftex.def Info: commentexample5.png used on input line 313.
+(pdftex.def)             Requested size: 181.62706pt x 118.36024pt.
+
+<commentexample6.png, id=173, 682.9515pt x 450.483pt>
+File: commentexample6.png Graphic file (type png)
+
+<use commentexample6.png>
+Package pdftex.def Info: commentexample6.png used on input line 316.
+(pdftex.def)             Requested size: 181.62706pt x 119.80359pt.
+
+<commentexample7.png, id=174, 690.78075pt x 449.88075pt>
+File: commentexample7.png Graphic file (type png)
+
+<use commentexample7.png>
+Package pdftex.def Info: commentexample7.png used on input line 319.
+(pdftex.def)             Requested size: 181.62706pt x 118.28424pt.
+
+<commentexample8.png, id=175, 700.41675pt x 458.31226pt>
+File: commentexample8.png Graphic file (type png)
+
+<use commentexample8.png>
+Package pdftex.def Info: commentexample8.png used on input line 322.
+(pdftex.def)             Requested size: 181.62706pt x 118.84367pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./commentcompare1.png> <./commentcompare2.png> <./commentratio1.png> <./co
+mmentratio2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<tag_frequency.png, id=190, 523.9575pt x 328.22626pt>
+File: tag_frequency.png Graphic file (type png)
+ <use tag_frequency.png>
+Package pdftex.def Info: tag_frequency.png used on input line 332.
+(pdftex.def)             Requested size: 254.27788pt x 159.2897pt.
+
+[9 <./commentexample1.png> <./commentexample2.png> <./commentexample3.png> <./c
+ommentexample4.png> <./commentexample5.png> <./commentexample6.png> <./commente
+xample7.png> <./commentexample8.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+ [10
+
+ <./tag_frequency.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+
+(./analysis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package rerunfilecheck Info: File `analysis.out' has not changed.
+(rerunfilecheck)             Checksum: F2533710A21369A06A3B992018BB52D5;541.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 10276 strings out of 493014
- 158680 string characters out of 6133351
- 285919 words of memory out of 5000000
- 13392 multiletter control sequences out of 15000+600000
- 52766 words of font info for 210 fonts, out of 8000000 for 9000
+ 10354 strings out of 493014
+ 160202 string characters out of 6133351
+ 285205 words of memory out of 5000000
+ 13443 multiletter control sequences out of 15000+600000
+ 52668 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,799b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,830b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -807,10 +1079,10 @@ ive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on analysis.pdf (7 pages, 773420 bytes).
+Output written on analysis.pdf (10 pages, 1045430 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 45768 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 45847 words of extra memory for PDF output out of 51595 (max. 10000000)
 

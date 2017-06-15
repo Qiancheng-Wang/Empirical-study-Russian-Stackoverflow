@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  8 JUN 2017 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.28)  15 JUN 2017 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -555,6 +555,33 @@ LaTeX Warning: Label `sub@fig:b' multiply defined.
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:b' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
 )
 \openout1 = `analysis.aux'.
 
@@ -805,17 +832,17 @@ Overfull \hbox (29.05432pt too wide) detected at line 165
 
  []
 
-<ratiochart1.png, id=90, 679.53876pt x 382.42876pt>
+<ratiochart1.png, id=90, 631.35875pt x 433.62pt>
 File: ratiochart1.png Graphic file (type png)
  <use ratiochart1.png>
 Package pdftex.def Info: ratiochart1.png used on input line 171.
-(pdftex.def)             Requested size: 256.8751pt x 144.56pt.
+(pdftex.def)             Requested size: 256.8751pt x 176.42235pt.
 
-<ratiochart2.png, id=91, 633.36626pt x 428.60126pt>
+<ratiochart2.png, id=91, 647.41875pt x 411.5375pt>
 File: ratiochart2.png Graphic file (type png)
  <use ratiochart2.png>
 Package pdftex.def Info: ratiochart2.png used on input line 174.
-(pdftex.def)             Requested size: 256.8751pt x 173.83107pt.
+(pdftex.def)             Requested size: 256.8751pt x 163.2871pt.
 
 Overfull \hbox (6.13675pt too wide) in paragraph at lines 171--175
  [][] 
@@ -957,17 +984,17 @@ Package pdftex.def Info: commentcompare2.png used on input line 267.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./comment.png> <./comment1.png>]
-<commentratio1.png, id=166, 605.26125pt x 422.7795pt>
+<commentratio1.png, id=166, 623.32875pt x 436.63126pt>
 File: commentratio1.png Graphic file (type png)
  <use commentratio1.png>
 Package pdftex.def Info: commentratio1.png used on input line 279.
-(pdftex.def)             Requested size: 207.57549pt x 144.99463pt.
+(pdftex.def)             Requested size: 207.57549pt x 145.40126pt.
 
-<commentratio2.png, id=167, 613.0905pt x 448.074pt>
+<commentratio2.png, id=167, 565.11125pt x 427.5975pt>
 File: commentratio2.png Graphic file (type png)
  <use commentratio2.png>
 Package pdftex.def Info: commentratio2.png used on input line 282.
-(pdftex.def)             Requested size: 207.57549pt x 151.70729pt.
+(pdftex.def)             Requested size: 207.57549pt x 157.06026pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1044,15 +1071,45 @@ Package pdftex.def Info: tag_frequency.png used on input line 332.
 [9 <./commentexample1.png> <./commentexample2.png> <./commentexample3.png> <./c
 ommentexample4.png> <./commentexample5.png> <./commentexample6.png> <./commente
 xample7.png> <./commentexample8.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
- [10
+<stackfre.png, id=214, 289.68225pt x 436.029pt>
+File: stackfre.png Graphic file (type png)
+ <use stackfre.png>
+Package pdftex.def Info: stackfre.png used on input line 342.
+(pdftex.def)             Requested size: 181.62706pt x 273.38902pt.
 
- <./tag_frequency.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+<russianfre.png, id=215, 290.88675pt x 434.22224pt>
+File: russianfre.png Graphic file (type png)
+ <use russianfre.png>
+Package pdftex.def Info: russianfre.png used on input line 345.
+(pdftex.def)             Requested size: 181.62706pt x 271.12982pt.
 
-(./analysis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+<overlapfre.png, id=216, 414.348pt x 227.6505pt>
+File: overlapfre.png Graphic file (type png)
+ <use overlapfre.png>
+Package pdftex.def Info: overlapfre.png used on input line 348.
+(pdftex.def)             Requested size: 181.62706pt x 99.78789pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (71.07562pt too high) has occurred while \output is active []
+
+
+[10 <./tag_frequency.png> <./stackfre.png> <./russianfre.png> <./overlapfre.png
+>] <notoverlap.png, id=230, 478.78876pt x 202.356pt>
+File: notoverlap.png Graphic file (type png)
+ <use notoverlap.png>
+Package pdftex.def Info: notoverlap.png used on input line 357.
+(pdftex.def)             Requested size: 181.62706pt x 76.7633pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+
+[11
+
+ <./notoverlap.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+ (./analysis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `analysis.out' has not changed.
 (rerunfilecheck)             Checksum: F2533710A21369A06A3B992018BB52D5;541.
 
@@ -1062,14 +1119,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 10354 strings out of 493014
- 160202 string characters out of 6133351
+ 10393 strings out of 493014
+ 160741 string characters out of 6133351
  285205 words of memory out of 5000000
- 13443 multiletter control sequences out of 15000+600000
- 52668 words of font info for 208 fonts, out of 8000000 for 9000
+ 13459 multiletter control sequences out of 15000+600000
+ 53310 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,43p,830b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1079,10 +1136,10 @@ ive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on analysis.pdf (10 pages, 1045430 bytes).
+Output written on analysis.pdf (11 pages, 1109724 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 67 named destinations out of 1000 (max. 500000)
- 45847 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 45867 words of extra memory for PDF output out of 51595 (max. 10000000)
 

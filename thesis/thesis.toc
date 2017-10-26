@@ -1,0 +1,37 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{v}
+\contentsline {chapter}{Abstract}{vii}
+\contentsline {chapter}{\numberline {1}An Introduction to My Thesis}{1}
+\contentsline {chapter}{\numberline {2}EmpiricalStudy}{5}
+\contentsline {section}{\numberline {2.1}Users}{5}
+\contentsline {subsection}{\numberline {2.1.1}Creation Date}{6}
+\contentsline {subsection}{\numberline {2.1.2}Reputation}{6}
+\contentsline {section}{\numberline {2.2}Post}{8}
+\contentsline {section}{\numberline {2.3}Content}{11}
+\contentsline {subsection}{\numberline {2.3.1}Tag}{11}
+\contentsline {subsection}{\numberline {2.3.2}Links}{12}
+\contentsline {section}{\numberline {2.4}Conclusion}{13}
+\contentsline {chapter}{\numberline {3}approach}{15}
+\contentsline {section}{\numberline {3.1}Dataset}{15}
+\contentsline {section}{\numberline {3.2}Overall Architecture}{15}
+\contentsline {section}{\numberline {3.3}Learning Word Representation }{17}
+\contentsline {section}{\numberline {3.4}Model Training}{17}
+\contentsline {chapter}{\numberline {4}Experiments}{19}
+\contentsline {section}{\numberline {4.1}Dataset}{19}
+\contentsline {section}{\numberline {4.2}Baseline Building}{19}
+\contentsline {subsection}{\numberline {4.2.1}TF-IDF}{19}
+\contentsline {subsection}{\numberline {4.2.2}Word-n-Grams and Letter-Trigram CLSM}{20}
+\contentsline {section}{\numberline {4.3}Evaluation Metrics}{21}
+\contentsline {subsection}{\numberline {4.3.1}Semantic Evaluation Metrics}{21}
+\contentsline {subsection}{\numberline {4.3.2}Retrieval Evaluation Metrics}{23}
+\contentsline {section}{\numberline {4.4}Evaluation}{24}
+\contentsline {subsection}{\numberline {4.4.1}Semantic Similarity Evaluation}{24}
+\contentsline {subsection}{\numberline {4.4.2}Retrieval Evaluation}{24}
+\contentsline {subsection}{\numberline {4.4.3}Cross-lingual Question Retrieval Comparison}{25}
+\contentsline {chapter}{\numberline {5}Related Work}{27}
+\contentsline {section}{\numberline {5.1}Q\&A Websites with Multiple Languages}{27}
+\contentsline {section}{\numberline {5.2}Multi-lingual Retrieval}{28}
+\contentsline {section}{\numberline {5.3}Deep Learning for Software Engineering}{28}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{31}
+\contentsline {chapter}{\numberline {A}Some Other Stuff}{33}
+\contentsline {chapter}{Bibliography}{35}

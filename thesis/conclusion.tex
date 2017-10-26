@@ -1,0 +1,13 @@
+\chapter{Conclusion and Future Work}
+
+In this paper, we build a deep learning based semantic similarity model for recommending cross-lingual similar posts across Stack Overflow sites of different language. Our approach can predict semantic similarity between two different languages. At word level, our approach has adopted GloVe for word embedding to encode word semantics in dense low dimensional vector space. At document level, our approach has developed a deep semantic similarity model to learn the semantic relatedness between the two posts in a question pair. Our training data is mined from the Stack Exchange site [1], which are manually marked as duplicate pairs by experts on Stack Overflow site. The experiments that we have done confirm the robustness of our approach for overcoming the lingual gap problem in cross-lingual question retrieval and present the advantages of our approach for recommending the best K similar posts with the query, compared with the TF-IDF based baseline and the letter-trigram based deep learning model.
+
+
+\par
+
+In the future, we will enhance our approach by using some advanced and efficient neural machine translation methods and some accurate feature filtering methods. Some techniques applied at word and letter levels like word-n-gram and letter-trigram will also be considered as the enhancement at the word level and letter level. From the aspect of the training data, according to the related research [29], the training data may be in a small number as we have mined from Stack Overflow, but we can pretrain the deep learning model by collecting a data set of millions of titles from the current post bodies so that it can largely enrich the training data for the deep learning model. 
+
+
+\par
+
+Last but not least, we will implement a new recommending tool that will be deployed on Stack Overflow or some other Q\&A websites to assist non-English language speakers to utilize the knowledge in the English Q\&A site better.

@@ -1,0 +1,50 @@
+
+\chapter{Related Work}
+This section introduces the related work. We mainly present the multi-lingual Q\&A sites study and the multi-lingual retrieval, then a clear introduction to the deep learning techniques in software engineering.
+
+\section{Q\&A Websites with Multiple Languages}
+Q\&A websites have witnessed a booming development in recent years, especially the technique sites like Stack Exchange and Superuser. Some of the Q\&A sites choose to start the multi-lingual sub-sites to attract non-native speakers. The debates on the language policy on Q\&A sites have never come to an end [3 ,6, 7, 8, 9]. As we know, the language and cultural diversity can lead into a huge barrier. The development of Q\&A websites is delayed by this problem. According to the increasing trend of the number and of users on these Q\&A websites, it is worthy to evaluate the benefits and disadvantages of the language policy. The challenge we are facing is to bridge the language gap and the semantic gap. 
+\par
+Some insightful research like best answer detection [21], implications of technical mini-blogs Q\&A exchange [22] and low-quality answer detection[23] present us many aspects of analysis on the Q\&A websites. Also, the participation levels are different among different counties with different languages [24]. The existing research shows us the possibility to develop the cross-lingual approach to help people bridge the language gap or even the semantic gap. 
+\par
+
+
+\section{Multi-lingual Retrieval}
+With the development of internet, Q\&A websites have become vital knowledge base for users, especially the technical sites like Stack Overflow for the programmers. Information retrieval is a good approach to assist people utilizing the resource on these platforms. Researchers classify this topic into two main parts, which are document retrieval and code retrieval. For our study, we mainly focus on the document retrieval part. So far, a lot of heuristic research has been done in this particular area. Especially, some research on the dual-language information retrieval is very remarkable. A CNN cross-lingual domain specific model explored some doable methods to overcome the lingual gap [20]. They divide the relationship with two different questions into four types, which are {\bf Duplicate}, {\bf Direct Link}, {\bf Indirect Link} and {\bf isolated}, and formulate a multiclass classification approach, which is considered as a good future work for our approach.
+\par
+Another excellent work has been carried out on cross-lingual issues in software engineering. The cross-lingual bug localization[25] and the domain-specific multi-classification approach [18] are both focusing on the cross-lingual problem between English and Chinese.
+\begin{comment}
+\par
+In our paper, we need to deal with Russian query recommendation task. Given a Russian query and tags and automatically recommend some high-relevant English posts. 
+\end{comment}
+
+\section{Deep Learning for Software Engineering}
+There are a lot of deep learning applications in the software engineering field and have made excellent results. Some effective tools like {\bf word2vec} and {\bf GloVe} [26]have been developed for learning words representation, which assists the researchers efficiently process the word embedding tasks. In our approach, we adopt GloVe to process the learning word representation tasks because it can achieve a high level of accuracy in a shorter time with using the negative samples.
+\par
+The semantic similarity is always a most attractive topic in the neuro-linguistic programming area. A lot of good approaches have been developed on this topic. For example, the model for detecting the question similarity [27] and the model for detecting relevant tweets [28]. These existing well-designed models formulate the problem into a binary classification problem, which is duplicate and non-duplicate.
+It is necessary to note that there are a number of experts manually mark the highly similar questions as duplicate ones on the Stack Exchange Site. Considering the data structure that we can mine, these binary classification approaches are highly responsive to our scenario and worthy for us to learn.
+\par
+A highly heuristic work has been carried out recently. As mentioned above, we generate 0.3 million of duplicate pairs for training the deep learning model. Somehow, the amount of training data might be small. Using post body as the corpus to pre-train an RCNN model for generating plenty of titles[Denoising bodies to titles]can solve the problem with insufficient training data. We consider this approach as a good supplement for our model.
+
+
+\begin{comment}
+		\subsection{Recommender System}
+	Generally, recommender system generates the recommendation in two ways, one is collaborative and content-based filtering and the other is personality-based approach [6]. The measure of a recommender system is the efficiency and accuracy. On the Q\&A websites, there are already exist many recommendation engines, users can easily input the search keyword and the searching engine will automatically return a list of answers. However, this form of recommender system can only utilize a large number of resource, it is not the best approach in the other aspects. \par
+	
+	There are some studies carried out in this area with different aims like recommending relative papers or programming analogical libraries [7, 8]. The later one is highly heuristic because the analogical libraries cannot be recommended by the current search engine, the traditional way is manually searching for the answer on the Internet. While using Deep Learning method can train the model with the keywords and the specific library, this approach can overcome the gap between the textual and programming language. \par
+	
+	According to the “Enrichment Effect” on the Q\&A website that means a few number of hotly debated posts can easily get a large number of answers and comments, while the areas that are not too hot will hardly receive some valuable feedbacks. We are also facing the same challenge. For the small multilingual subsites, a small number of users and a narrow knowledge base sometimes cannot support an efficient information exchange process. Therefore, our approach needs to keep in a high level of performance in this situation to beat the traditional recommender system.
+	
+	
+	\subsection{Letter Level}
+	From the literacy review, we found some excellent work that has been done in the more bottom level than the semantic level, such as the word level and letter level research [11]. Y. Shen, X. He, J. Gao, L. Deng, and G. Mesnil used the word-n-gram and letter-trigram model to build up a latent semantic model with pretty good results. The difference between the letter-trigram embedding with traditional word embedding is that every single word in the corpus needs to generate some letter trigrams. The letter trigrams represent all the sentences in the low dimensional vector space and then calculate the similarity between them. This method works very well in the letter and word levels, but the difficulty is that there is no well-developed letter trigram base. Nevertheless, this approach is also implemented. We trained this approach and compare the results with those of our DSSM approach in the experiment section. We generate a letter-trigram base from the corpus that we mined from Stack Overflow. Although the amount of letter trigram is not as great as we thought at first, we still apply the trigram base for letter embedding. 
+	\par
+	This research [11] is also a good enlightenment for the future improvement of our approach because the semantic similarity calculation can also benefit from both letter and word levels. A better result would be made in the future if we can combine these techniques. 
+	
+	\subsection{ Information Retrieval and Semantic Similarity}
+	There is also some heuristic works in this field. Especially, some research on the Dual-language information retrieval is very remarkable. The CNN cross-lingual Domain-specific model explored some doable methods to overcome the lingual gap[12].  On the other hand, the semantic similarity is always a most attractive topic in the neuro-linguistic programming area. Also, some powerful libraries like word2vec and GloVe are developed in recent years, which help the researchers efficiently handling the word embedding process. In our approach, we need to use GloVe because it can achieve a high level of accuracy in a shorter time with using the negative samples.
+	\par
+	
+	Some research has been already made in detecting similar questions \citep{kim2007best} and relevant tweets[10]. These existing well-designed works have formulated the problem in a binary prediction problem, which is duplicate and non-duplicate. In Stack Overflow community, there are always some people marking the posts with different content as duplicate posts because they are actually the same question on the semantic level. The duplicate attribute can distinguish all the existing posts into two groups, which are also duplicate post and non-duplicate posts. These existing works highly correspond to our scenarios.
+	content...
+\end{comment}

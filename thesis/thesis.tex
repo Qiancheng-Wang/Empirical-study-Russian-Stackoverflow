@@ -1,0 +1,97 @@
+%%
+%% Template thesis.tex
+%%
+\documentclass[11pt]{book}
+\usepackage[palatino]{anuthesis}
+\usepackage{graphicx}
+\usepackage{thesis}
+\usepackage{makeidx}
+\usepackage{acmnew-xref}
+\usepackage{subfigure}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,french,english]{babel}
+\usepackage{wasysym}
+\usepackage{comment}
+\usepackage{cite}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Preamble
+\title{Towards Bridging the Gap between Multilingual Q\&A Communities with Deep Learning \\
+		\large ---An Empirical Study of Russian Stack Overflow}
+\author{Qiacheng Wang}
+\date{\today}
+
+\renewcommand{\thepage}{\roman{page}}
+
+\makeindex
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
+\begin{spacing}{1.6}
+\pagestyle{empty}
+\thispagestyle{empty}
+\input titlepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here begin the preliminaries
+%\input frontmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Dedication (optional)
+\cleardoublepage
+\pagestyle{empty}
+\input dedication
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Acknowledgements (optional!)
+\cleardoublepage
+\pagestyle{empty}
+\input ack
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Abstract
+\cleardoublepage
+\pagestyle{headings}
+\input abstract
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Table of contents
+\cleardoublepage
+\pagestyle{headings}
+\markboth{Contents}{Contents}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here begins the main text
+\mainmatter
+
+%% Introduction
+\input intro
+
+%% Chapters
+\input EmpiricalStudy
+\input approach
+\input experiment
+\input relatedWork
+\input conclusion
+\input appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Here begins the end matter
+\input reference
+\backmatter
+
+\bibliographystyle{acmnew-xref}
+\bibliography{thesis}
+
+\printindex
+\end{spacing}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "thesis"
+%%% End: 
+
+
+

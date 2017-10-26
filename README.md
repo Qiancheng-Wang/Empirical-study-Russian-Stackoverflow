@@ -6,6 +6,6 @@ This research is based on the data from Stackoverflow https://archive.org/downlo
 - User
 - Post
 - Comment
+- Tag
 
-A small tool for translating Between languages. PyQt5 + SQL
-https://github.com/WrynnWang/PyQt5-translator-tool
+
